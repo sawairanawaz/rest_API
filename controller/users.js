@@ -1,5 +1,3 @@
-import { v4 as uuidv4 } from "uuid";
-
 import { db } from "../firebase/firebase.js"
 import { collection, addDoc , getDocs, deleteDoc,updateDoc, doc} from "firebase/firestore";
 
