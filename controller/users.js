@@ -36,7 +36,7 @@ export const deleteUser = async (req, res) => {
         console.log(err);
     }
     finally{
-        res.send(`Student with id ${id} deleted from the database!`)
+        res.send(`Students with id ${id} deleted from the database!`)
     }
 }
 
